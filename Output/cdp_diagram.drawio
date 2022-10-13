@@ -1,0 +1,29 @@
+<mxfile type="device" compressed="false">
+    <diagram id="Page-1" name="Page-1">
+      <mxGraphModel dx="1360" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
+        <root>
+          <mxCell id="0" />   
+          <mxCell id="1" parent="0" />
+        <object id="Router1" label="Router1">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="248" y="424" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><object id="Switch1" label="Switch1" top_label="192.168.0.20" bottom_label="cisco WS-C3650-48PS">
+      <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="0" width="120" height="60" as="geometry" />
+      </mxCell>
+    </object><mxCell id="a3487cec33f077cbc13903c6d41d31c2-src" value="Ge0/0/1" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="a3487cec33f077cbc13903c6d41d31c2">
+      <mxGeometry x="-0.5" relative="1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><mxCell id="a3487cec33f077cbc13903c6d41d31c2-trgt" value="Ge1/1/4" style="labelBackgroundColor=#ffffff;;" vertex="1" connectable="0" parent="a3487cec33f077cbc13903c6d41d31c2">
+      <mxGeometry x="0.5" relative="-1" as="geometry">
+        <mxPoint as="offset" />
+      </mxGeometry>
+    </mxCell><object id="a3487cec33f077cbc13903c6d41d31c2" label="" src_label="Ge0/0/1" trgt_label="Ge1/1/4" source="Router1" target="Router1">
+      <mxCell style="endArrow=none;" edge="1" parent="1" source="Router1" target="Switch1">
+          <mxGeometry relative="1" as="geometry" />
+      </mxCell>
+    </object></root>
+      </mxGraphModel>
+    </diagram></mxfile>
